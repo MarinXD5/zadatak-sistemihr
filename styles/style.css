@@ -14,8 +14,15 @@
 .bckgrnd-image {
   background-image: url("../images/DSC_1114.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 84vh;
-  -o-object-fit: contain;
-     object-fit: contain;
+}
+
+.text-align {
+  text-align: center;
+  line-height: 84vh;
+  font-size: 3em;
+  font-family: sans-serif;
+  overflow-wrap: break-word;
 }/*# sourceMappingURL=style.css.map */
