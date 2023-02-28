@@ -26,6 +26,21 @@ $lineHeight: 84vh;
     text-align: center;
     line-height: $lineHeight;
     font-size: 3em;
-    font-family: sans-serif;
+    font-family: 'Hepta Slab', serif;
+    font-family: 'Roboto', sans-serif;
     overflow-wrap:break-word;
+    word-break: break-all;
+}
+
+.text-align-s2{
+    text-align: center;
+    line-height: 10vh;
+    font-size: 3em;
+    
+    font-weight: 600;
+}
+
+.text-family{
+    font-family: 'Hepta Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
