@@ -44,3 +44,7 @@ $lineHeight: 84vh;
     font-family: 'Hepta Slab', serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.cardhover :hover{
+    border: 2px solid rgb(197, 136, 43);
+}
