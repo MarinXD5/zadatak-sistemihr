@@ -1,9 +1,12 @@
 $lineHeight: 84vh;
 
+* {
+    box-sizing: border-box;
+}
+
 .nav-text{
     color: white;
     cursor: pointer;
-
 }
 
 .box{
@@ -36,7 +39,6 @@ $lineHeight: 84vh;
     text-align: center;
     line-height: 10vh;
     font-size: 3em;
-    
     font-weight: 600;
 }
 
@@ -45,6 +47,44 @@ $lineHeight: 84vh;
     font-family: 'Roboto', sans-serif;
 }
 
-.cardhover :hover{
+.card-hover:hover{
     border: 2px solid rgb(197, 136, 43);
+    cursor: pointer;
+}
+
+.card-inside{
+    padding-top: 15vh;
+    text-align: start;
+    padding-right: 150px;
+}
+
+.text-3{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.text-4{
+    padding-right: 20%; 
+    padding-left: 20%;
+    font-weight: 300;
+    font-size: 1.408em;
+}
+
+@media screen and (max-width: 900px) {
+    .card-sizedown{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .box{
+        border: 5px solid purple;
+        display:grid;
+        place-content: center;
+        margin-bottom: 20px;
+    }
+
+    .card-each{
+        width: 400px;
+        height: 50vh;
+    }
 }
