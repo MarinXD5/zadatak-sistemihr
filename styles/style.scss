@@ -1,4 +1,5 @@
 $lineHeight: 84vh;
+$colorGold: rgba(190,157,104,255);
 
 * {
     box-sizing: border-box;
@@ -48,7 +49,7 @@ $lineHeight: 84vh;
 }
 
 .card-hover:hover{
-    border: 2px solid rgb(197, 136, 43);
+    border: 2px solid $colorGold;
     cursor: pointer;
 }
 
@@ -68,6 +69,17 @@ $lineHeight: 84vh;
     padding-left: 20%;
     font-weight: 300;
     font-size: 1.408em;
+}
+
+.scores{
+    display: flex;
+    gap: 65px;
+    padding-left: 15%;
+    background-color: $colorGold;
+    height: 22vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 900px) {
