@@ -100,3 +100,15 @@ $colorGold: rgba(190,157,104,255);
         height: 50vh;
     }
 }
+
+.bckgrnd-image-hvar{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-clip: padding-box;
+    padding-right: px;
+    width:100vw;
+    height: 100vh;
+    //overflow-x: hidden;
+
+    height: $lineHeight;
+}
