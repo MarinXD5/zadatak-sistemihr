@@ -66,6 +66,16 @@
     overflow-wrap: break-word;
     word-break: break-all;
   }
+
+  .text-align-welcome {
+    text-align: center;
+    line-height: 84vh;
+    font-size: 2em;
+    font-family: "Hepta Slab", serif;
+    font-family: "Roboto", sans-serif;
+    overflow-wrap: break-word;
+    word-break: break-all;
+  }
   
   .text-align-s2 {
     text-align: center;
@@ -126,6 +136,18 @@
     justify-content: center;
     align-items: center;
   }
+
+  .text-align-s5{
+    color: white;
+    font-weight: 300;
+    font-size: 2.8em;
+  }
+
+  .text-align-s5-r{
+    color: white;
+    font-weight: 300;
+    font-size: 2.8em;
+  }
   
   @media screen and (max-width: 1100px) {
     .box {
@@ -139,6 +161,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-right: 50%;
     }
     .card-each {
       width: 50vw;
@@ -147,13 +170,77 @@
     }
 
     .scores{
-        display: block;
+        display: grid;
+        place-items: center;
         height:fit-content;
         width: fit-content;
     }
+
+    .text-align-s5{
+      color: white;
+      font-weight: 300;
+      font-size: 2em;
+    }
+
+    .text-align-s5-r{
+      color: white;
+      font-weight: 300;
+      font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    border: 5px solid purple;
+    display: grid;
+    place-content: center;
+    margin-bottom: 20px;
+  }
+  .card-sizedown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100%;
+  }
+  .card-each {
+    width: 70vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .scores{
+      display: grid;
+      place-items: center;
+      height:fit-content;
+      width: fit-content;
+      margin-right: 30%;
+  }
+
+  .text-align-s5{
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-right: 25%;
+  }
+
+  .text-align-s5-r{
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-right: 25%;
+  }
 }
 
 .little-box-with-number-10-on-it{
     background-color: rgb(190, 157, 104);
     color: white;
+}
+
+.footer{
+  color: rgba(170, 170, 170, 0.911)
+}
+
+.footer2{
+  color: rgba(170, 170, 170, 0.911)
 }
